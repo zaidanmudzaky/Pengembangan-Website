@@ -1,0 +1,29 @@
+/* Styling Flexbox Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}

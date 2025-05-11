@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f4f8;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card-container {
+    background: url('background.png') no-repeat center center/cover;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 400px; /* LEBIH BESAR */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.card-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Profile Picture */
+.profile-pic img {
+    width: 200px; /* Sedikit lebih besar */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    margin-bottom: 25px;
+}
+
+/* Info */
+.profile-info {
+    text-align: center;
+}
+
+.profile-info h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.profile-info h2 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 18px;
+}
+
+.profile-info p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+/* Contact Icons */
+.contact-icons {
+    display: flex;
+    justify-content: center; /* DIPUSATKAN */
+    gap: 20px;
+}
+
+.contact-icons a {
+    color: #007bff;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #0056b3;
+}
